@@ -51,6 +51,7 @@
      <Compile Include="Assets\FollowPlayer.cs" />
      <Compile Include="Assets\IceCreamMovement.cs" />
      <Compile Include="Assets\PlayerController.cs" />
+     <Compile Include="Assets\PlayerHealthController.cs" />
      <Compile Include="Assets\PointsController.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

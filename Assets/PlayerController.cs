@@ -60,10 +60,15 @@ public class PlayerController : MonoBehaviour {
 			jump = false;
 		}
 	}
+
+	public void BounceUp() {
+		rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, rigidbody2D.velocity.y * -1);
+	}
+
 	void OnTriggerEnter2D(Collider2D collider) {
 		if (collider.tag == "EnemyKillBox") {
 			collider.transform.parent.GetComponent<EnemyController>().Die();
-			rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, rigidbody2D.velocity.y * -1);
+			BounceUp ();
 		}
 		
 	}
