@@ -1,0 +1,24 @@
+body {
+	margin: 40px;
+	font: 12px Tahoma;
+}
+#wrap {
+	width: 970px;
+	height: 629px;
+	margin: auto;
+}
+canvas {
+	border: 1px solid black;
+	float: left;
+}
+#debug {
+	width: 200px;
+	height: 607px;
+	margin: 0 2px;
+	padding: 10px;
+	border: 1px solid black;
+	float: left;	
+}
+.info {
+	margin: 10px 0;
+}
