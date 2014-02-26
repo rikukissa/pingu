@@ -1,1 +1,8 @@
-.DS_Store
+
+Temp
+*.DS_Store
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
